@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 20px auto;
+	width: 95%;
+}
+
+#head {
+	margin: 10px auto;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: solid white 2px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#distHead {
+	text-align: center;
+	margin: 10px;
+}
+
+#distList li, #rulesList li {
+	margin: 5px;
+}
+
+#distList, #rulesList {
+	list-style: none;
+	text-align: center;
+}
+
+#rulesList {
+	margin: 20px;
+}
+
+#footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#postUpdate {
+	width: 60%;
+	max-width: 300px;
+	text-align: center;
+	cursor: pointer;
+	margin: 10px auto;
+}
+
+#updateContent {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#updateForm {
+	margin: 0 auto;
+	width: 100%;
+	/*background: red;*/
+}
+
+#updateSubmit {
+	margin: 10px;
+}
+
+#updateFormAssets {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+#postUpdated {
+	/*background: green;*/
+	width: 80%;
+	max-width: 300px;
+	color: 30be30;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.red {
+	color: red;
+}
+
+.update {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.date {
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #b0b0b0;
+	font-size: 10pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* regular and visited link */
+a:link, a:visited {
+    color: white;
+}
+
+/* hover and selected link */
+a:hover, a:active {
+    color: #b0b0b0;
+}
+
+body {
+	background: #161616;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footer a {
+	color: #b0b0b0;
+}
+
+#updateSubmit {
+	width: 80px;
+	height: 30px;
+	background: white;
+	font-size: 14pt;
+}
+
+#postUpdate {
+	background: #e1e1e1;
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+#noUpdates {
+	text-align: center;
+	margin: 10px auto;
+}

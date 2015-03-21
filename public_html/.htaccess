@@ -1,0 +1,7 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+
+SetEnv IN Asia/Calcutta
+
+php_value date.timezone "Asia/Calcutta"
